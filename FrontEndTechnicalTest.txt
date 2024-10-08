@@ -1,0 +1,42 @@
+HTML:
+What is wrong in this code block?
+<h1 class="fst-italic lh-1 mb-4">Our Website is Coming Soon</h1>
+--This is a comment, do not include this on the page--
+ <p class="mb-5">We're working hard to finish the development of this site. Sign up below to receive updates and to be notified when we launch!</p> 
+
+What is wrong in this code block?
+    <h1 id="text" class="text1">Our Website is Coming Soon</h1>
+	<p id="text" class="text1">Sign up below</p> 
+
+Javascript:
+What is the output of this code?
+let text = "Hello,World,How,Are,You"; 
+let result = text.split(",");
+console.log(result);
+
+What is the output of this code? 
+ const mybirthdate = "01/01/1900";
+      mybirthdate = "31/12/1900";
+
+Can we update the "times" to 10? If yes, how do you do it?
+const greeting = {
+        message: "say Hi",
+        times: 4
+    }
+
+
+CSS:
+What will the CSS do in this code block?
+
+In the HTML file:
+<div>
+<p id="1" class="text1">Text1</p> 
+<p id="2" class="text2">Text2</p> 
+<p id="3" class="Text3">Text3</p> 
+<p id="4" class="Text4">Text4</p>  
+</div>
+
+in the CSS file:
+div + p {
+ color: blue;
+}
