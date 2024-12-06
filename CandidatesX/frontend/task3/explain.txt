@@ -1,0 +1,39 @@
+1. Header Section
+  Logo on Top-left: This likely represents the branding of the platform.
+  Navigation Bar: It contains the menu items: 
+    - Rack Rental: Link or Button
+    - Server Leasing: Link or Button
+    - About Us: Dropdown list, can click or hover to open in desktop, click to open on mobile
+    - Contact Us: Link or Button
+    - Admin: Dropdown list, can click or hover to open in desktop, click to open on mobile
+    - User A: dropdown for account-related actions, can click or hover to open in desktop, click to open on mobile.
+
+2. Profile Section
+  This section includes the user's personal details and company information.
+    - Profile Title: "Profile Page" can be a Title component.
+    - Personal Details & Company Section: This section includes multiple fields:
+      + E-mail: Label and Input in form, Readonly mode, Displayed email as user_@test.com.
+      + Name: Label and Input in form, Readonly mode, Displayed name as User A.
+      + Phone Number: Label and Input in form, No Data, Readonly mode, Displayed as -, and there’s a "Reset Password" link.
+      + Company Name: Label and Input in form, No Data, Readonly mode, Displayed as -.
+      + Company Address: Label and Input in form, No Data, Readonly mode, Displayed as -.
+
+    Each of these fields could be structured as individual components:
+      + ProfileField: A generic component for displaying fields like E-mail, Name, etc. Each ProfileField could take props like label, value, and action (for the "Reset Password" link).
+      + ProfileDetails: A container component to group ProfileField components for better structure.
+      + ResetPassword: A separate ResetPassword component for the action to reset the password.
+
+3. Edit Button
+  Edit Button: This button allows the user to edit the information and would likely be a separate component called EditButton. It should handle the logic of switching the fields from view mode to edit mode.
+
+4. Console Section
+  This section contains two console options:
+    - VPS
+    - Rack Rental
+  
+  Both of these could be separate components:
+    - ConsoleCard: A component for displaying each console (VPS, Rack Rental). It could contain an icon and title.
+    - ConsoleSection: A container component to group all console cards (like VPS and Rack Rental).
+
+5. Footer Section
+  Though not visible in the image.
